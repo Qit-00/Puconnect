@@ -24,15 +24,15 @@
               <div class="col-auto flex-shrink-1 flex-grow-1">
                 <div style="line-height:1em">
                 <div class="font-weight-bolder"><?= $row['name'] ?></div>
-                <div class="text-meted"><small>Posted <i class="far fa-calendar"></i> <?=  date("M d, Y h:i A", strtotime($row['date_created'])) ?></small></div>
+                <div class="text-meted"><small>Đã đăng<i class="far fa-calendar"></i> <?=  date("M d, Y h:i A", strtotime($row['date_created'])) ?></small></div>
                 </div>
               </div>
             </div>
             <hr>
             <div>
               <div class="truncate-5 truncated-text"><?= str_replace(["\n\r","\n","\r"], "<br />", $row['caption'])  ?></div>
-              <a href="javascript:void(0)" class="seemore d-none">Read More</a>
-              <a href="javascript:void(0)" class="seeless d-none">Show Less</a>
+              <a href="javascript:void(0)" class="seemore d-none">Đọc thêm</a>
+              <a href="javascript:void(0)" class="seeless d-none">Hiện ít hơn</a>
             </div>
               <?php 
               if(isset($row['upload_path']) && is_dir(base_app.$row['upload_path'])):

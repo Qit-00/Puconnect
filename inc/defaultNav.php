@@ -22,8 +22,8 @@
           <li class="nav-item dropdown">
             <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Dropdown</a>
             <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
-              <li><a href="#" class="dropdown-item">Some action </a></li>
-              <li><a href="#" class="dropdown-item">Some other action</a></li>
+              <li><a href="#" class="dropdown-item">Một số hành động</a></li>
+              <li><a href="#" class="dropdown-item">Một số hành động khác</a></li>
 
               <li class="dropdown-divider"></li>
 
@@ -85,8 +85,8 @@
                     Brad Diesel
                     <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                   </h3>
-                  <p class="text-sm">Call me whenever you can...</p>
-                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                  <p class="text-sm">Hãy gọi cho tôi bất cứ khi nào bạn có thể ...</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 giờ trước</p>
                 </div>
               </div>
               <!-- Message End -->
@@ -101,8 +101,8 @@
                     John Pierce
                     <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
                   </h3>
-                  <p class="text-sm">I got your message bro</p>
-                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                  <p class="text-sm">Tôi nhận được tin nhắn của bạn</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 giờ trước</p>
                 </div>
               </div>
               <!-- Message End -->
@@ -117,14 +117,14 @@
                     Nora Silvester
                     <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
                   </h3>
-                  <p class="text-sm">The subject goes here</p>
-                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                  <p class="text-sm">Chủ đề ở đây</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 giờ trước</p>
                 </div>
               </div>
               <!-- Message End -->
             </a>
             <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+            <a href="#" class="dropdown-item dropdown-footer">Xem tất cả tin nhắn</a>
           </div>
         </li>
         <!-- Notifications Dropdown Menu -->
@@ -134,24 +134,24 @@
             <span class="badge badge-warning navbar-badge">15</span>
           </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-            <span class="dropdown-header">15 Notifications</span>
+            <span class="dropdown-header">15 thông báo</span>
             <div class="dropdown-divider"></div>
             <a href="#" class="dropdown-item">
-              <i class="fas fa-envelope mr-2"></i> 4 new messages
-              <span class="float-right text-muted text-sm">3 mins</span>
+              <i class="fas fa-envelope mr-2"></i> 4 tin nhắn mới 
+              <span class="float-right text-muted text-sm">3 phút</span>
             </a>
             <div class="dropdown-divider"></div>
             <a href="#" class="dropdown-item">
-              <i class="fas fa-users mr-2"></i> 8 friend requests
-              <span class="float-right text-muted text-sm">12 hours</span>
+              <i class="fas fa-users mr-2"></i> 8 yêu cầu kết bạn
+              <span class="float-right text-muted text-sm">12 giờ</span>
             </a>
             <div class="dropdown-divider"></div>
             <a href="#" class="dropdown-item">
-              <i class="fas fa-file mr-2"></i> 3 new reports
-              <span class="float-right text-muted text-sm">2 days</span>
+              <i class="fas fa-file mr-2"></i> 3 báo cáo mới
+              <span class="float-right text-muted text-sm">2 ngày</span>
             </a>
             <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+            <a href="#" class="dropdown-item dropdown-footer">Xem tất cả thông báo</a>
           </div>
         </li>
         <li class="nav-item">

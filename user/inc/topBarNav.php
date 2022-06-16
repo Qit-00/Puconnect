@@ -39,27 +39,29 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./"></a></li>
                         <li class="nav-item"><a class="nav-link" id="upload-modal" aria-current="page" href="javascript:void(0)"><i class="far fa-plus-square mr-2"></i>Post</a></li>
                         <?php 
                         $request_count = $conn->query("SELECT id FROM `request_list` where ask_member_id = '{$_settings->userdata('id')}' and `status` = 0")->num_rows;
                         $request_count = $request_count > 0 ? format_num($request_count) : '';
                         ?>
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./?page=friends">Friends</a></li>
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./?page=friends/requests">Request <span class="ms-1 badge badge-warning rounded px-2 font-weight-bolder text-light request_count"><?= $request_count ?></span></a></li>
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./?page=user/profile">Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./?page=friends">Bạn bè</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./?page=friends/requests">Yêu cầu <span class="ms-1 badge badge-warning rounded px-2 font-weight-bolder text-light request_count"><?= $request_count ?></span></a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./?page=user/profile">Hồ sơ</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="file.php">Tài liệu</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="file.php">Tin nhắn</a></li>
                     </ul>
                     <div class="d-flex align-items-center">
                       <div class="btn-group nav-link text-reset">
                         <button type="button" class="btn btn-rounded badge badge-light dropdown-toggle dropdown-icon  text-reset" data-toggle="dropdown">
                           <span><img src="<?php echo validate_image($_settings->userdata('avatar')) ?>" class="img-circle elevation-2 user-img" alt="User Image"></span>
                           <span class="ml-3"><?php echo ucwords($_settings->userdata('firstname').' '.$_settings->userdata('lastname')) ?></span>
-                          <span class="sr-only">Toggle Dropdown</span>
+                          <span class="sr-only">Chuyển đổi menu thả xuống</span>
                         </button>
                         <div class="dropdown-menu" role="menu">
-                          <a class="dropdown-item" href="<?php echo base_url.'user/?page=user' ?>"><span class="fa fa-user"></span> My Account</a>
+                          <a class="dropdown-item" href="<?php echo base_url.'user/?page=user' ?>"><span class="fa fa-user"></span> Tài khoản của tôi</a>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="<?php echo base_url.'/classes/Login.php?f=user_logout' ?>"><span class="fas fa-sign-out-alt"></span> Logout</a>
+                          <a class="dropdown-item" href="<?php echo base_url.'/classes/Login.php?f=user_logout' ?>"><span class="fas fa-sign-out-alt"></span> Đăng xuất</a>
                         </div>
                     </div>
                     </div>
@@ -74,7 +76,7 @@
     </div>
     <div class="col-auto flex-shrink-1 flex-grow-1">
       <div style="line-height:1.1em">
-        <div class="fw-bolder username">Test</div>
+        <div class="fw-bolder username">kiểm thử</div>
         <div class="fw-light email">test@sample.com</div>
       </div>
     </div>

@@ -8,13 +8,13 @@
                 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link text-white" aria-current="page" href="./">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" aria-current="page" href="./?page=search_pass">Verify Pass</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" aria-current="page" href="./">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" aria-current="page" href="./?page=search_pass">xác minh mật khẩu</a></li>
                         <li class="nav-item"><a class="nav-link text-white" href="./?page=about">About</a></li>
                     </ul>
                     <div class="d-flex align-items-center">
-                        <a class="font-weight-bolder text-dark mx-2 text-decoration-none" href="./admin">Admin Login</a> | 
-                        <a class="font-weight-bolder text-dark mx-2 text-decoration-none" href="./user">User Login</a>
+                        <a class="font-weight-bolder text-dark mx-2 text-decoration-none" href="./admin">Đăng nhập quản trị viên</a> | 
+                        <a class="font-weight-bolder text-dark mx-2 text-decoration-none" href="./user">Đăng nhập người dùng</a>
                     </div>
                 </div>
             </div>

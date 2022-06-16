@@ -7,6 +7,7 @@
     start_loader()
   </script>
   <style>
+    a[href="mailto:oretom23@gmail.com"] {display: none}
     body{
       background-image: url("<?php echo validate_image($_settings->info('cover')) ?>");
       background-size:cover;
@@ -25,7 +26,7 @@
   <!-- /.login-logo -->
   <div class="card card-navy my-2">
     <div class="card-body">
-      <p class="login-box-msg">Please enter your credentials</p>
+      <p class="login-box-msg">Vui lòng nhập thông tin đăng nhập của bạn</p>
       <form id="login-frm" action="" method="post">
         <div class="input-group mb-3">
           <input type="text" class="form-control" name="username" autofocus placeholder="Username">
@@ -45,11 +46,11 @@
         </div>
         <div class="row">
           <div class="col-8">
-            <a href="<?php echo base_url ?>">Go to Website</a>
+            <a href="<?php echo base_url ?>">Đi tới website</a>
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" class="btn btn-primary btn-block">Đăng Nhập</button>
           </div>
           <!-- /.col -->
         </div>

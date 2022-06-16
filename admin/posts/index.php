@@ -6,7 +6,7 @@
 <?php endif;?>
 <div class="card card-outline rounded-0 card-navy">
 	<div class="card-header">
-		<h3 class="card-title">List of Posts</h3>
+		<h3 class="card-title">Danh sách bài viết</h3>
 	</div>
 	<div class="card-body">
         <div class="container-fluid">
@@ -23,11 +23,11 @@
 				<thead>
 					<tr>
 						<th>#</th>
-						<th>Date Created</th>
-						<th>Member</th>
-						<th>Caption</th>
-						<th>Likes</th>
-						<th>Comments</th>
+						<th>Ngày tạo</th>
+						<th>Thành viên</th>
+						<th>Đầu đề</th>
+						<th>Thích</th>
+						<th>Bình luận</th>
 						<th>Action</th>
 					</tr>
 				</thead>

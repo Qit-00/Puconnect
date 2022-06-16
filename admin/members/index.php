@@ -6,7 +6,7 @@
 <?php endif;?>
 <div class="card card-outline rounded-0 card-navy">
 	<div class="card-header">
-		<h3 class="card-title">List of members</h3>
+		<h3 class="card-title">Danh sách thành viên</h3>
 	</div>
 	<div class="card-body">
         <div class="container-fluid">
@@ -21,8 +21,8 @@
 				<thead>
 					<tr>
 						<th>#</th>
-						<th>Date Created</th>
-						<th>Name</th>
+						<th>Ngày tạo</th>
+						<th>Tên</th>
 						<th>Email</th>
 						<th>Action</th>
 					</tr>
@@ -44,9 +44,9 @@
 				                    <span class="sr-only">Toggle Dropdown</span>
 				                  </button>
 				                  <div class="dropdown-menu" role="menu">
-				                    <a class="dropdown-item view_data" href="javascript:void(0)" data-id="<?php echo $row['id'] ?>"><span class="fa fa-eye text-dark"></span> View</a>
+				                    <a class="dropdown-item view_data" href="javascript:void(0)" data-id="<?php echo $row['id'] ?>"><span class="fa fa-eye text-dark"></span> xem </a>
 				                    <div class="dropdown-divider"></div>
-				                    <a class="dropdown-item delete_data" href="javascript:void(0)" data-id="<?php echo $row['id'] ?>"><span class="fa fa-trash text-danger"></span> Delete</a>
+				                    <a class="dropdown-item delete_data" href="javascript:void(0)" data-id="<?php echo $row['id'] ?>"><span class="fa fa-trash text-danger"></span> Xóa</a>
 				                  </div>
 							</td>
 						</tr>

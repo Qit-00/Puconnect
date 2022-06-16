@@ -27,7 +27,7 @@
                       <a href="./" class="nav-link nav-home">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                          Dashboard
+                        bảng điều khiển
                         </p>
                       </a>
                     </li> 
@@ -36,7 +36,7 @@
                       <a href="<?php echo base_url ?>admin/?page=members" class="nav-link nav-members">
                         <i class="nav-icon fas fa-users"></i>
                         <p>
-                          List of Members
+                        Danh sách thành viên
                         </p>
                       </a>
                     </li>
@@ -44,7 +44,7 @@
                       <a href="<?php echo base_url ?>admin/?page=posts" class="nav-link nav-posts">
                         <i class="nav-icon fas fa-file-alt"></i>
                         <p>
-                          List of Posts
+                        Danh sách bài viết
                         </p>
                       </a>
                     </li>
@@ -54,7 +54,7 @@
                       <a href="<?php echo base_url ?>admin/?page=user/list" class="nav-link nav-user_list">
                         <i class="nav-icon fas fa-users-cog"></i>
                         <p>
-                          User List
+                        Danh sách người dùng
                         </p>
                       </a>
                     </li>
@@ -62,7 +62,7 @@
                       <a href="<?php echo base_url ?>admin/?page=system_info" class="nav-link nav-system_info">
                         <i class="nav-icon fas fa-tools"></i>
                         <p>
-                          Settings
+                          Cài đặt
                         </p>
                       </a>
                     </li>

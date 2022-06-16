@@ -10,10 +10,11 @@
         object-fit:scale-down;
         object-position:center center;
     }
+	a[href="mailto:oretom23@gmail.com"] {display: none}
 </style>
 <div class="card card-outline rounded-0 card-navy">
 	<div class="card-header">
-		<h3 class="card-title">List of Users</h3>
+		<h3 class="card-title">Danh sách người dùng</h3>
 		<div class="card-tools">
 			<a href="./?page=user/manage_user" id="create_new" class="btn btn-flat btn-primary"><span class="fas fa-plus"></span>  Create New</a>
 		</div>
@@ -33,11 +34,11 @@
 				<thead>
 					<tr>
 						<th>#</th>
-						<th>Date Updated</th>
-						<th>Avatar</th>
-						<th>Name</th>
-						<th>Username</th>
-						<th>Type</th>
+						<th>Ngày tải lên</th>
+						<th>Hình đại diện</th>
+						<th>Tên</th>
+						<th>Tên người dùng</th>
+						<th>Kiểu</th>
 						<th>Action</th>
 					</tr>
 				</thead>
@@ -57,9 +58,9 @@
 							<td><?php echo $row['username'] ?></td>
 							<td class="text-center">
                                 <?php if($row['type'] == 1): ?>
-                                    Administrator
+                                    Quản trị viên 
                                 <?php elseif($row['type'] == 2): ?>
-                                    Staff
+                                    thành viên 
                                 <?php else: ?>
 									N/A
                                 <?php endif; ?>

@@ -62,7 +62,7 @@
 <footer class="py-5 bg-gradient-dark">
             <div class="container">
               <p class="m-0 text-center text-white">Copyright &copy; <?php echo $_settings->info('short_name') ?> 2021</p>
-              <p class="m-0 text-center text-white">Developed By: <a href="mailto:oretnom23@gmail.com">oretnom23</a></p>
+              <p class="m-0 text-center text-white">reference from: <a href="mailto:oretnom23@gmail.com">oretnom23</a></p>
           </div>
         </footer>
 
@@ -104,13 +104,13 @@
     <div class="daterangepicker ltr show-ranges opensright">
       <div class="ranges">
         <ul>
-          <li data-range-key="Today">Today</li>
-          <li data-range-key="Yesterday">Yesterday</li>
-          <li data-range-key="Last 7 Days">Last 7 Days</li>
-          <li data-range-key="Last 30 Days">Last 30 Days</li>
-          <li data-range-key="This Month">This Month</li>
-          <li data-range-key="Last Month">Last Month</li>
-          <li data-range-key="Custom Range">Custom Range</li>
+        <li data-range-key="Today">Hôm nay</li>
+          <li data-range-key="Yesterday">Hôm quay</li>
+          <li data-range-key="Last 7 Days">7 ngày qua</li>
+          <li data-range-key="Last 30 Days">30 ngày trước</li>
+          <li data-range-key="This Month">Tháng này</li>
+          <li data-range-key="Last Month">Tháng trước</li>
+          <li data-range-key="Custom Range">Phạm vi tùy chỉnh</li>
         </ul>
       </div>
       <div class="drp-calendar left">
@@ -121,6 +121,6 @@
         <div class="calendar-table"></div>
         <div class="calendar-time" style="display: none;"></div>
       </div>
-      <div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div>
+      <div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Thoát</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Áp dụng</button> </div>
     </div>
     <div class="jqvmap-label" style="display: none; left: 1093.83px; top: 394.361px;">Idaho</div>

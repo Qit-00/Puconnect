@@ -61,7 +61,7 @@
         </strong>
         All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
-          <b><?php echo $_settings->info('short_name') ?> (by: <a href="mailto:oretnom23@gmail.com" target="blank">oretnom23</a> )</b> v1.0
+          <b><?php echo $_settings->info('short_name') ?> ( reference from <a href="mailto:loquyet1793@gmail.com" target="blank">oretnom23</a> )</b> v1.0
         </div>
       </footer>
     </div>
@@ -102,13 +102,13 @@
     <div class="daterangepicker ltr show-ranges opensright">
       <div class="ranges">
         <ul>
-          <li data-range-key="Today">Today</li>
-          <li data-range-key="Yesterday">Yesterday</li>
-          <li data-range-key="Last 7 Days">Last 7 Days</li>
-          <li data-range-key="Last 30 Days">Last 30 Days</li>
-          <li data-range-key="This Month">This Month</li>
-          <li data-range-key="Last Month">Last Month</li>
-          <li data-range-key="Custom Range">Custom Range</li>
+          <li data-range-key="Today">Hôm nay</li>
+          <li data-range-key="Yesterday">Hôm quay</li>
+          <li data-range-key="Last 7 Days">7 ngày qua</li>
+          <li data-range-key="Last 30 Days">30 ngày trước</li>
+          <li data-range-key="This Month">Tháng này</li>
+          <li data-range-key="Last Month">Tháng trước</li>
+          <li data-range-key="Custom Range">Phạm vi tùy chỉnh</li>
         </ul>
       </div>
       <div class="drp-calendar left">

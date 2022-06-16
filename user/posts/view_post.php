@@ -39,15 +39,15 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 						<div class="col-auto flex-shrink-1 flex-grow-1">
 							<div style="line-height:1em">
 							<div class="font-weight-bolder"><?= isset($name) ? $name : '' ?></div>
-							<div class="text-meted"><small>Posted <i class="far fa-calendar"></i> <?= isset($date_created) ?  date("M d, Y h:i A", strtotime($date_created)): '' ?></small></div>
+							<div class="text-meted"><small> Đã đăng <i class="far fa-calendar"></i> <?= isset($date_created) ?  date("M d, Y h:i A", strtotime($date_created)): '' ?></small></div>
 							</div>
 						</div>
 					</div>
 					<hr>
 					<div>
 						<div class="truncate-5 truncated-text"><?=isset($caption) ? str_replace(["\n\r","\n","\r"], "<br />", $caption) : '' ?></div>
-						<a href="javascript:void(0)" class="seemore d-none">Read More</a>
-						<a href="javascript:void(0)" class="seeless d-none">Show Less</a>
+						<a href="javascript:void(0)" class="seemore d-none">Đọc thêm</a>
+						<a href="javascript:void(0)" class="seeless d-none">Rút gọn</a>
 					</div>
 					<?php 
 					if(isset($upload_path) && is_dir(base_app.$upload_path)):
@@ -80,11 +80,11 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 							<?php if(count($files) >1): ?>
 							<a class="carousel-control-prev" href="#post<?= isset($id) ? $id:'' ?>" role="button" data-slide="prev">
 								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
+								<span class="sr-only">Trước</span>
 							</a>
 							<a class="carousel-control-next" href="#post<?= isset($id) ? $id:'' ?>" role="button" data-slide="next">
 								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
+								<span class="sr-only">Tiếp</span>
 							</a>
 							<?php endif; ?>
 						</div>

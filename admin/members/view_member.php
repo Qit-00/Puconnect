@@ -25,6 +25,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
         object-fit:cover;
         object-position:center center;
     }
+    a[href="mailto:oretom23@gmail.com"] {display: none}
 </style>
 <div class="container-fluid">
     <center>
@@ -40,5 +41,5 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
     </div>
 </div>
 <div class="mt-3 text-right">
-    <button class="btn btn-light bg-gradient-light" type="button" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+    <button class="btn btn-light bg-gradient-light" type="button" data-dismiss="modal"><i class="fa fa-times"></i> Thoát</button>
 </div>

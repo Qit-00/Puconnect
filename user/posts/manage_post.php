@@ -25,10 +25,10 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 	<form action="" id="post-form">
 		<input type="hidden" name ="id" value="<?php echo isset($id) ? $id : '' ?>">
 		<div class="form-group mb-3">
-			<label for="caption" class="control-label">Caption</label>
+			<label for="caption" class="control-label">Đầu đề</label>
 			<textarea rows="3" class="form-control form-control-sm rounded-0" id="caption" name="caption" required="required"><?= isset($caption) ? $caption : '' ?></textarea>
 			<div id="upload-images" class="mt-4">
-				<h4 class="font-weight-bolder" id="upload-text">Drop your Photos Here</h4>
+				<h4 class="font-weight-bolder" id="upload-text">Thả ảnh của bạn ở đây</h4>
 				<div id="holder" class="w-100 px-3">
 					<div id="template" class="row mt-2">
 						<div class="col-auto">
@@ -51,7 +51,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 						</div>
 					</div>
 				</div>
-				<button id='select-upload' class='btn btn-primary bg-gradient-primary rounded-0' type='button'>Upload Photos</button>
+				<button id='select-upload' class='btn btn-primary bg-gradient-primary rounded-0' type='button'>Tải ảnh lên</button>
 			</div>
 		</div>
 	</form>

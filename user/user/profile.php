@@ -71,25 +71,25 @@ if(!isset($_GET['user_id']) || (isset($_GET['user_id']) && $_GET['user_id'] == $
                                     <div class="row mb-3 justify-content-end">
                                         <div class="col-lg-lg-6 col-md-6 col-lg-12 col-sm-12 text-right">
                                             <?php if(isset($request_status) && $request_status == 0): ?>
-                                            <button class="btn btn-light bg-gradient-light border btn-sm rounded-0" type="button" disabled><i class="fa fa-user-clock"></i> Pending Friend Request</button>
+                                            <button class="btn btn-light bg-gradient-light border btn-sm rounded-0" type="button" disabled><i class="fa fa-user-clock"></i> Yêu cầu kết bạn đang chờ xử lý</button>
                                             <?php elseif(isset($requested) && $requested['status'] == 0): ?>
-                                            <button class="btn btn-primary bg-gradient-primary btn-sm rounded-0" type="button" data-request-id='<?= $requested['id'] ?>' id="confirm_request"><i class="fa fa-check"></i> Confirm Friend Request</button>
-                                            <button class="btn btn-danger bg-gradient-danger btn-sm rounded-0" type="button" data-request-id='<?= $requested['id'] ?>' id="decline_request"><i class="fa fa-user-minus"></i> Decline</button>
+                                            <button class="btn btn-primary bg-gradient-primary btn-sm rounded-0" type="button" data-request-id='<?= $requested['id'] ?>' id="confirm_request"><i class="fa fa-check"></i> Xác nhận yêu cầu kết bạn</button>
+                                            <button class="btn btn-danger bg-gradient-danger btn-sm rounded-0" type="button" data-request-id='<?= $requested['id'] ?>' id="decline_request"><i class="fa fa-user-minus"></i> Từ chối</button>
                                             <?php elseif((isset($request_status) && $request_status == 1) || (isset($requested['status']) && $requested['status'] == 1)): ?>
-                                            <button class="btn btn-light bg-gradient-light border btn-sm rounded-0" type="button" disabled><i class="fa fa-user-check"></i> Friend</button>
+                                            <button class="btn btn-light bg-gradient-light border btn-sm rounded-0" type="button" disabled><i class="fa fa-user-check"></i> Bạn bè</button>
                                             <?php elseif(isset($requested) && $requested['status'] == 3): ?>
-                                            <button class="btn btn-primary bg-gradient-primary btn-sm rounded-0" type="button" data-request-id='<?= $requested['id'] ?>' id="confirm_request"><i class="fa fa-check"></i> Reconsider Friend Request</button>
+                                            <button class="btn btn-primary bg-gradient-primary btn-sm rounded-0" type="button" data-request-id='<?= $requested['id'] ?>' id="confirm_request"><i class="fa fa-check"></i> Xem xét lại yêu cầu kết bạn</button>
                                             <?php elseif(isset($request_status) && $request_status == 3): ?>
-                                            <button class="btn btn-danger bg-gradient-danger border btn-sm rounded-0" type="button" disabled><i class="fa fa-user-minus"></i> Request has been Declined</button>
+                                            <button class="btn btn-danger bg-gradient-danger border btn-sm rounded-0" type="button" disabled><i class="fa fa-user-minus"></i> Yêu cầu đã bị từ chối</button>
                                             <?php else: ?>
-                                            <button class="btn btn-primary bg-gradient-primary btn-sm rounded-0" type="button" id="add_friend"><i class="fa fa-user-plus"></i> Send Friend Request</button>
+                                            <button class="btn btn-primary bg-gradient-primary btn-sm rounded-0" type="button" id="add_friend"><i class="fa fa-user-plus"></i> Gửi lời mời kết bạn</button>
                                             <?php endif; ?>
                                         </div>
                                     </div>
                                 <?php endif; ?>
                             <fieldset class="border">
                                 <div class="d-flex w-100 justify-content-between">
-                                    <legend class="w-auto px-3 fw-bolder">Personal Information</legend>
+                                    <legend class="w-auto px-3 fw-bolder">Thông tin cá nhân</legend>
                                     <?php if($id == $_settings->userdata('id')): ?>
                                     <button class="btn btn-outline-primary rounded-0 btn-sm py-1 h-auto" type="button" id="edit_personal_information"><i class="fa fa-edit"></i></button>
                                     <?php endif; ?>

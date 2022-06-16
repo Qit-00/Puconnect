@@ -44,15 +44,15 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="form-group">
-                    <label for="firstname" class="control-label">First Name</label>
+                    <label for="firstname" class="control-label">Họ</label>
                     <input type="text" class="form-control form-control-sm rounded-0" reqiured="" name="firstname" id="firstname">
                 </div>
                 <div class="form-group">
-                    <label for="middlename" class="control-label">Middle Name</label>
+                    <label for="middlename" class="control-label">Tên đệm</label>
                     <input type="text" class="form-control form-control-sm rounded-0" name="middlename" id="middlename">
                 </div>
                 <div class="form-group">
-                    <label for="lastname" class="control-label">Last Name</label>
+                    <label for="lastname" class="control-label">Tên</label>
                     <input type="text" class="form-control form-control-sm rounded-0" reqiured="" name="lastname" id="lastname">
                 </div>
             </div>
@@ -62,14 +62,14 @@
                     <input type="text" class="form-control form-control-sm rounded-0" reqiured="" name="email" id="email">
                 </div>
                 <div class="form-group">
-                    <label for="password" class="control-label">Password</label>
+                    <label for="password" class="control-label">Mật khẩu</label>
                     <div class="input-group input-group-sm">
                         <input type="password" class="form-control form-control-sm rounded-0" reqiured="" name="password" id="password">
                         <button tabindex="-1" class="btn btn-outline-secondary btn-sm rounded-0 pass_view" type="button"><i class="fa fa-eye-slash"></i></button>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="cpassword" class="control-label">Confirm Password</label>
+                    <label for="cpassword" class="control-label">Xác nhận mật khẩu</label>
                     <div class="input-group input-group-sm">
                         <input type="password" class="form-control form-control-sm rounded-0" reqiured="" id="cpassword">
                         <button tabindex="-1" class="btn btn-outline-secondary btn-sm rounded-0 pass_view" type="button"><i class="fa fa-eye-slash"></i></button>
@@ -78,10 +78,10 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="form-group">
-                <label for="" class="control-label">Avatar</label>
+                <label for="" class="control-label">hình đại diện</label>
                 <div class="custom-file">
 		              <input type="file" class="custom-file-input rounded-0" id="customFile" name="img" onchange="displayImg(this,$(this))" accept="image/png, image/jpeg">
-		              <label class="custom-file-label rounded-0" for="customFile">Choose file</label>
+		              <label class="custom-file-label rounded-0" for="customFile">Chọn tập tin</label>
 		            </div>
 				</div>
             </div>
@@ -93,11 +93,11 @@
         </div>
         <div class="row">
           <div class="col-8">
-            <a href="./">Already hava an Account</a>
+            <a href="./">Bạn co săn san để tạo một tai khoản</a>
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+            <button type="submit" class="btn btn-primary btn-block">Tạo tài khoản</button>
           </div>
           <!-- /.col -->
         </div>

@@ -17,7 +17,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 }
 ?>
 <div class="mx-0 py-5 px-3 mx-ns-4 bg-gradient-light shadow blur">
-	<h3><b>Post Details</b></h3>
+	<h3><b>chi tiết bài đăng</b></h3>
 </div>
 <style>
 	.avatar-img{
@@ -26,6 +26,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
       object-fit: cover;
       object-position: center;
     }
+	a[href="mailto:oretom23@gmail.com"] {display: none}
 </style>
 <div class="row justify-content-center" style="margin-top:-2em;">
 	<div class="col-lg-6 col-md-8 col-sm-11 col-xs-11">
@@ -46,8 +47,8 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 					<hr>
 					<div>
 						<div class="truncate-5 truncated-text"><?=isset($caption) ? str_replace(["\n\r","\n","\r"], "<br />", $caption) : '' ?></div>
-						<a href="javascript:void(0)" class="seemore d-none">Read More</a>
-						<a href="javascript:void(0)" class="seeless d-none">Show Less</a>
+						<a href="javascript:void(0)" class="seemore d-none">đọc thêm</a>
+						<a href="javascript:void(0)" class="seeless d-none">rút gọn</a>
 					</div>
 					<div class="container-fluid bg-gradient-dark" style="height: 30em !important">
 						<?php 

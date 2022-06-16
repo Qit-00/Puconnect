@@ -27,7 +27,7 @@
                       <a href="./" class="nav-link nav-home">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                          Dashboard
+                        Bảng điều khiển
                         </p>
                       </a>
                     </li> 
@@ -36,7 +36,7 @@
                       <a href="<?php echo base_url ?>user/?page=applications/manage_application" class="nav-link nav-applications_manage_application">
                         <i class="nav-icon fas fa-plus"></i>
                         <p>
-                          Add New Application
+                        Thêm ứng dụng mới
                         </p>
                       </a>
                     </li>
@@ -44,7 +44,7 @@
                       <a href="<?php echo base_url ?>user/?page=applications" class="nav-link nav-applications">
                         <i class="nav-icon fas fa-file-alt"></i>
                         <p>
-                          Applications History
+                        Lịch sử ứng dụng
                         </p>
                       </a>
                     </li>

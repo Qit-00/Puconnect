@@ -6,9 +6,9 @@
 <?php endif;?>
 <div class="card card-outline rounded-0 card-navy">
 	<div class="card-header">
-		<h3 class="card-title">List of Applications</h3>
+		<h3 class="card-title">Danh sách các ứng dụng</h3>
 		<div class="card-tools">
-			<a href="./?page=applications/manage_application" id="create_new" class="btn btn-flat btn-primary"><span class="fas fa-plus"></span>  Create New</a>
+			<a href="./?page=applications/manage_application" id="create_new" class="btn btn-flat btn-primary"><span class="fas fa-plus"></span>  Tạo Mới</a>
 		</div>
 	</div>
 	<div class="card-body">
@@ -25,11 +25,11 @@
 				<thead>
 					<tr>
 						<th>#</th>
-						<th>Date Created</th>
-						<th>Code</th>
-						<th>Travel Info</th>
-						<th>Status</th>
-						<th>Action</th>
+						<th>Ngày tạo</th>
+						<th>Mã số</th>
+						<th>Thông tin du lịch</th>
+						<th>Tình trạng</th>
+						<th>Hoạt động</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -44,7 +44,7 @@
 							<td><?php echo $row['code'] ?></td>
 							<td class="">
 								<div style="line-height:1em">
-									<div><span class="text-muted mr-1">Location:</span><?= $row['location'] ?></div>
+									<div><span class="text-muted mr-1">Địa điểm:</span><?= $row['location'] ?></div>
 									<div><span class="text-muted mr-1">Desctination:</span><?= $row['destination'] ?></div>
 								</div>	
 							</td>
@@ -66,7 +66,7 @@
 							<td align="center">
 								 <button type="button" class="btn btn-flat p-1 btn-default btn-sm dropdown-toggle dropdown-icon" data-toggle="dropdown">
 				                  		Action
-				                    <span class="sr-only">Toggle Dropdown</span>
+				                    <span class="sr-only">Chuyển đổi menu thả xuống</span>
 				                  </button>
 				                  <div class="dropdown-menu" role="menu">
 				                    <a class="dropdown-item view_data" href="./?page=applications/view_application&id=<?php echo $row['id'] ?>"><span class="fa fa-eye text-dark"></span> View</a>

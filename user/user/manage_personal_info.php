@@ -13,12 +13,12 @@ if($meta_qry->num_rows > 0){
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <label for="gender" class="control-label">Gender</label>
                 <select class="form-select form-select-sm rounded-0" id="gender" name="gender" required="required">
-                    <option <?= isset($gender) && $gender == 'Male' ? "selected" : "" ?>>Male</option>
-                    <option <?= isset($gender) && $gender == 'Female' ? "selected" : "" ?>>Female</option>
+                    <option <?= isset($gender) && $gender == 'Male' ? "selected" : "" ?>>Nam giới</option>
+                    <option <?= isset($gender) && $gender == 'Female' ? "selected" : "" ?>>Nữ Giới</option>
                 </select>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <label for="dob" class="control-label">Birthday</label>
+                <label for="dob" class="control-label">Ngày sinh </label>
                 <input type="date" class="form-control form-control-sm rounded-0" id="dob" name="dob" required="required" value="<?= isset($dob) ? date("Y-m-d", strtotime($dob)) : '' ?>">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -26,27 +26,27 @@ if($meta_qry->num_rows > 0){
                 <input type="text" class="form-control form-control-sm rounded-0" id="contact" name="contact" required="required" value="<?= isset($contact) ? $contact : '' ?>">
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <label for="address" class="control-label">Address</label>
+                <label for="address" class="control-label">Địa chỉ</label>
                 <textarea rows="3" class="form-control form-control-sm rounded-0" id="address" name="address" required="required"><?= isset($address) ? $address : "" ?></textarea>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <label for="relation_status" class="control-label">Relationship Status</label>
+                <label for="relation_status" class="control-label">Tình trạng mối quan hệ</label>
                 <select class="form-select form-select-sm rounded-0" id="relation_status" name="relation_status" required="required">
-                    <option <?= isset($relation_status) && $relation_status == 'Single' ? "selected" : "" ?>>Single</option>
-                    <option <?= isset($relation_status) && $relation_status == 'In-Relationship' ? "selected" : "" ?>>In-Relationship</option>
-                    <option <?= isset($relation_status) && $relation_status == 'Married' ? "selected" : "" ?>>Married</option>
+                    <option <?= isset($relation_status) && $relation_status == 'Single' ? "selected" : "" ?>>Độc thân</option>
+                    <option <?= isset($relation_status) && $relation_status == 'In-Relationship' ? "selected" : "" ?>>Trong mối quan hệ</option>
+                    <option <?= isset($relation_status) && $relation_status == 'Married' ? "selected" : "" ?>>Đã cưới</option>
                 </select>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <label for="studied_at" class="control-label">Studied/Studying At</label>
+                <label for="studied_at" class="control-label">Đã học / đang học tại</label>
                 <textarea rows="2" class="form-control form-control-sm rounded-0" id="studied_at" name="studied_at"><?= isset($studied_at) ? $studied_at : "" ?></textarea>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <label for="working_at" class="control-label">Currently Working At</label>
+                <label for="working_at" class="control-label">Hiện đang làm việc tại</label>
                 <textarea rows="2" class="form-control form-control-sm rounded-0" id="working_at" name="working_at"><?= isset($working_at) ? $working_at : "" ?></textarea>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <label for="about_me" class="control-label">About Me</label>
+                <label for="about_me" class="control-label">Giới thiệu</label>
                 <textarea rows="4" class="form-control form-control-sm rounded-0" id="about_me" name="about_me"><?= isset($about_me) ? $about_me : "" ?></textarea>
             </div>
         </div>
